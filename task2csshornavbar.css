@@ -1,0 +1,39 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #3498db;
+    width: 100%; /* Full width */
+}
+
+/* Style the list items */
+.navbar ul {
+    display: flex; /* Display items horizontally */
+    justify-content: space-between; /* Add space between items */
+    padding: 0;
+}
+
+.navbar li {
+    border: 1px solid #ccc;
+    margin: 0; /* Remove default margin */
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Change background and text color on hover */
+.navbar a:hover {
+    background-color: yellow;
+    color: #fff;
+}

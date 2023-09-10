@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /* Move buttons to the extreme left */
+    margin-left: -1390px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.green-btn {
+    background-color: green;
+}
+
+.blue-btn {
+    background-color: blue;
+}
+
+.red-btn {
+    background-color: red;
+}
+
+.grey-btn {
+    background-color: grey;
+}
+
+button:hover {
+    background-color: darkgray;
+    transform: translateX(5px);
+}
+@media screen and (max-width: 768px) {
+    .button-container {
+        align-items: center; /* Center-align buttons on smaller screens */
+    }
+
+    button {
+        width: 120px; /* Reduce button width for smaller screens */
+    }
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /* Move buttons to the extreme left */
+    margin-left: -400px;
+}
+
+
+.green-btn {
+    background-color: green;
+}
+
+.blue-btn {
+    background-color: blue;
+}
+
+.red-btn {
+    background-color: red;
+}
+
+.grey-btn {
+    background-color: grey;
+}
+
+button:hover {
+    background-color: darkgray;
+    transform: translateX(5px);
+}
+}
+

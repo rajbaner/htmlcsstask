@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: yellow;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            background-color: yellow;
+        }
+
+        .left-buttons {
+            flex: 1;
+            background-color: yellow;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left-buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white; /* Fill inside with white color */
+    border: 2px solid black; /* Add a thinner border around the button */
+    border-right: 5px solid black;
+    color: black;
+    font-size: 16px;
+}
+
+        .right-content {
+            flex: 3;
+            padding: 20px;
+            color: black;
+        }
+
+        h1 {
+            font-weight: bold;
+        }
+
+        .border-line {
+            border-bottom: 1px dotted black;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-buttons">
+            <button>Home Page</button>
+            <button>Musings</button>
+            <button>My Town</button>
+            <button>Links</button>
+        </div>
+        <div class="right-content">
+            <h1>My First Styled Page</h1>
+            <p>Welcome to my first styled page. Here you'll find some interesting content.</p>
+            <div class="border-line"></div>
+            <p>Another small paragraph below the dotted border line.</p>
+        </div>
+    </div>
+</body>
+</html>
